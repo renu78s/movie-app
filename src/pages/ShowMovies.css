@@ -1,0 +1,13 @@
+.movies_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page_title{
+    text-align: center;
+    text-transform: uppercase;
+    margin:10px ;
+}
+.remove_line{
+    text-decoration: none;
+}

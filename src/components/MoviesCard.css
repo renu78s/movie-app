@@ -1,0 +1,61 @@
+.display_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+   margin: 10px;
+   padding: 5px;
+   background-color: rgb(36, 87, 87);
+   width: 18rem;
+   font-size: smaller;
+   color: rgb(221, 170, 104);
+} 
+.card-img-top{
+    height: 15rem;
+}
+.card-text{
+    color: white;
+    text-decoration: none ;
+    font-size:medium;  
+   
+}
+.card-text:hover{
+    color: rgb(221, 238, 72);
+   
+}
+abbr{
+    text-decoration: none !important;
+    cursor: pointer !important; 
+}
+.card-title{
+    color: rgb(112, 230, 190);
+    font-style: italic;
+    font-size: x-large;
+    height: 50px;
+    font-size: larger;
+
+}
+.btn1{
+    background-color: rgb(36, 10, 59);
+    color: beige;
+    
+}
+.btn1:hover{
+    font-size: large;
+    color: aqua;
+    background-color: rgb(36, 10, 59);
+}
+
+
+@media (max-width:630px){ 
+    .card{
+       margin: 2px;
+       background-color: rgb(36, 87, 87);
+       width: 90%;
+       margin-left: 5%;
+       margin-bottom: 5%;
+    } 
+  
+} 
